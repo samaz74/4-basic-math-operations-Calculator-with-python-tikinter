@@ -13,7 +13,7 @@ style= Style()
 style.configure('W.TButton', font =
                ('calibri', 12, 'bold'),
                 foreground = 'black')
-photo_bg=PhotoImage(file=r'L:\py\cal\cl.png') #add the backgound image
+photo_bg=PhotoImage(file=r'\cl.png') #add the backgound image
 lable_bg=Label(window, image=photo_bg)
 lable_bg.place(x=1, y=1)
 #variable defining
